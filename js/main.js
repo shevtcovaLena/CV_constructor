@@ -1,6 +1,7 @@
 import '../css/style.css'
 import './language_grade.js';
 import './pdf._file.js';
+import './wave.js';
 
 // import javascriptLogo from '../javascript.svg'
 // import viteLogo from '/vite.svg'
