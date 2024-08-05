@@ -24,6 +24,5 @@ const options = {
 
 const resume = document.querySelector(".a4");
 document.querySelector("#export").addEventListener("click", () => {
-    console.log("click");    
-    // handleSave(resume)
+    handleSave(resume)
 })
