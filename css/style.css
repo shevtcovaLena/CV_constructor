@@ -419,11 +419,13 @@ h4 {
 }
 
 .button {
+  flex-direction: column;
   flex: 1 1 200px;
   display: flex;
-  justify-content: center;
-  align-items: start;
+  justify-content: start;
+  align-items: center;
   padding-top: 20px;
+  gap: 20px;
 }
 
 #export {
@@ -461,4 +463,11 @@ h4 {
     transform: scale(4);
     opacity: 0;
   }
+}
+
+
+.content__block--icons {
+  width: 80%;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
