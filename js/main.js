@@ -3,4 +3,5 @@ import './language_grade.js';
 import './pdf._file.js';
 import './wave.js';
 import './add_avatar.js';
-import './expirience.js';
+import './addButton.js';
+import './drag-n-drop.js'
